@@ -105,3 +105,13 @@ print("Detected: " .. gameName)
 -- TODO:
 -- create more scripts for different games to add to this list.
 -- maybe add executor support check ( probably not... but maybe )
+--[[
+
+local exec = identifyexecutor()
+local exename = exec:match("^(%S+)"):lower()
+
+print(exename)
+
+this prints executor name filtered out to just its name no version idenifiers.
+executor support check can be added when i feel like testing the scripts with different executors 
+]]
