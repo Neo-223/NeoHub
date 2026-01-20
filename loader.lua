@@ -1,4 +1,4 @@
-if game.GameId == 109397169461300 then
+if game.GameId == 7264587281 then
 	print("Loading Sniper Duels")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Neo-223/NeoHub/refs/heads/main/Sniper%20Duels.lua"))()
 elseif game.GameId == 1335695570 then
